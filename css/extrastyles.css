@@ -1,3 +1,13 @@
 .logo img{
-    width: 30px;
+    width: 30%;
+}
+.logofooter{
+    width: 50%;
+}
+.fondoheader{
+    background-color: #D9D9D9;
+}
+.linkdefault:hover{
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
