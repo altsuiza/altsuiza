@@ -1,11 +1,14 @@
+.nuestro-equipo{
+  border-bottom: 2px solid rgb(0, 0, 0);
+}
 .team-card {
   border: none;
-  border-radius: 15px;
+  border-radius: 12px;
   overflow: hidden;
   box-shadow: 0 5px 15px rgba(0,0,0,0.1);
   transition: transform 0.3s;
-  background: linear-gradient(135deg, #6e48aa 0%, #9d50bb 100%);
   color: #ffffff;
+  text-decoration: none;
 }
 
 .team-card:hover {
@@ -31,8 +34,8 @@
   bottom: -10px;
   left: 50%;
   transform: translateX(-50%);
-  background: #4e54c8;
-  color: white;
+  background: #ffffff;
+  color: black;
   padding: 3px 15px;
   border-radius: 20px;
   font-size: 12px;

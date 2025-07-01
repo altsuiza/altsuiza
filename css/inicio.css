@@ -9,7 +9,10 @@ body{
     font-family: "IBM Plex Mono", monospace;
 }
 .bg-celeste{
-    background-color: rgb(0, 179, 255);
+    background-color: rgb(80, 180, 180);
+}
+.text-celeste{
+    color:rgb(80, 180, 180);
 }
 .secondarytitle{
     color: #28a745;
