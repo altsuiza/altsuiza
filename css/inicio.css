@@ -1,12 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Jersey+25&display=swap');
+
+.titulo{
+    font-family: "Jersey 25", sans-serif;
+}
+
 body{
-    background-color: #121212;
+    background-color: black;
+    font-family: "IBM Plex Mono", monospace;
+}
+.bg-celeste{
+    background-color: rgb(0, 179, 255);
 }
 .secondarytitle{
     color: #28a745;
 } 
 .secbordes{
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
 .textfondo{
     color: #ffffff;
@@ -21,7 +30,7 @@ body{
     width: 10%;
 }
 .logofooter{
-    width: 50%;
+    width: 35%;
 }
 .fondonav{
     background-color: #D9D9D9;
@@ -53,8 +62,8 @@ body{
 .ftgrupal{
     display: inline-block;
     padding: 2px;
-    border: 2px solid black;
-    border-radius: 15px;
-    background-color: black;
+    border: 2px solid rgba(0, 0, 0, 0.147);
+    border-radius: 12px;
+    /* background-color: black; */
 
 }
