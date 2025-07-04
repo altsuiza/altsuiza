@@ -18,59 +18,45 @@
 
 <body class="d-flex flex-column h-100 bg-light">
     <main class="flex-shrink-0">
-
-        <nav class="navbar navbar-expand-lg bg-white">
+        <!--------------------Menu navegacion-------------------->
+        <nav class="navbar nav navbar-expand-lg bg-white">
             <div class="container px-5">
-                <a class="navbar-brand logo" href="index.html"><img src="assets/logoC.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation"><span
-                        class="navbar-toggler-icon"></span></button>
+                <a class="navbar-brand ancho logo" href="index.html"><img src="assets/logoC.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="index.html">Inicio</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="about.html">Quiénes
-                                somos</a></li>
-                        <li class="nav-item"><a class="nav-link text-black linkdefault"
-                                href="problematica.html">Problemática</a>
-                        </li>
-                        <li class="nav-item"><a class="nav-link text-black linkdefault"
-                                href="solucion.html">Solución</a>
-                        </li>
+                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="index.html">Inicio</a></li>
+                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="about.html">Quiénes somos</a></li>
+                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="problematica.html">Problemática</a></li>
+                        <li class="nav-item"><a class="nav-link text-black linkdefault" href="solucion.html">Solución</a></li>
                     </ul>
                 </div>
-            </div>
             </div>
         </nav>
         <section class="py-5">
             <div class="container">
                 <div class=" row fw-normal">
                     <div class="col">
-                        <h2 class="fw-bolder text-center" style="margin-bottom: 3%;"> Mira nuestra solución</h2>
+                        <h2 class="display-2 fw-bolder text-center titulo" style="margin-bottom: 3%;"> Mira nuestra solución</h2>
                     </div>
                 </div>
-                <div class="row ">
-                    <div class="col parrafoini bg-celeste">
-                        <h4>¿Qué hicimos?</h4>
-                        <p>Creamos un robot que mide el sonido en el aula en tiempo real que emite una señal sonora.
-                            Esta señal
-                            sirve para que todos notemos que el clima de aprendizaje en el aula se está perdiendo, y
-                            podamos
-                            bajar el volumen entre todos, sin que el docente tenga que intervenir
-                        </p>
-                        <p>Al mismo tiempo, pensamos en una aplicación que, mediante los datos medidos por nuestro
-                            robot,
-                            realice graficos que permitan analizar esta información y tomar decisiones informadas para
-                            combatir
-                            este problema.</p>
-                    </div>
+                <div class="rounded bg-celeste p-3">
+                    <h4 class=" titulo h2 text-white">¿Qué hicimos?</h4>
+                    <p class="text-white">Creamos un robot que mide el sonido en el aula en tiempo real que emite una señal sonora.
+                        Esta señal
+                        sirve para que todos notemos que el clima de aprendizaje en el aula se está perdiendo, y
+                        podamos
+                        bajar el volumen entre todos, sin que el docente tenga que intervenir. <br>Al mismo tiempo, pensamos en una aplicación que, mediante los datos medidos por nuestro
+                        robot,
+                        realice graficos que permitan analizar esta información y tomar decisiones informadas para
+                        combatir
+                        este problema.</p>
                 </div>
             </div>
         </section>
 
         <section>
-            <div class="container px-5 my-5 secbordes">
+            <div class="container px-5 mt-5 secbordes">
                 <div class="row gx-5 align-items-center"
                     style="padding-bottom: 5%; padding-left: 5%; padding-right: 5%; padding-top: 1%;">
                     <div class="col-lg-6 order-first order-lg-last">
@@ -104,8 +90,8 @@
                             </button>
                         </div>
                     </div>
-                    <div class="col-lg-6 text-center">
-                        <h2 class="fw-bolder"> Desafío 3: Solución</h2>
+                    <div class="col-lg-6 ">
+                        <h2 class="display-5 fw-bolder text-celeste titulo"> Desafío 3: Solución</h2>
                         <p class="lead fw-normal mb-0"> Para este desafio, debíamos proponer una forma de
                             resolver la problemática elegida, usando a la tecnología como parte de la misma. Así es como
                             nacen nuestros prototipos, una forma
@@ -120,10 +106,10 @@
         </section>
 
         <section id="scroll-target">
-            <div class="container px-5 my-5 text-center">
+            <div class="container px-5">
                 <div class="row gx-5 align-items-center" style="padding: 5%;">
                     <div class="col-lg-6 textpie">
-                        <h3>Robot</h3>
+                        <h3 class="text-center">Robot</h3>
                         <div id="carouselrobot" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
@@ -155,7 +141,7 @@
                         <p class="textpie"><strong>Componentes:</strong> Sensor KY-038, BUZZER, LEDs, Batería de 3V.</p>
                     </div>
                     <div class="col-lg-6">
-                        <h2 class="fw-bolder">Alt + dB</h2>
+                        <h2 class="display-4 fw-bolder text-celeste titulo text-center">Alt + dB</h2>
                         <p class="lead fw-normal mb-0 ">Alt + dB es un robot diseñado para medir el nivel de
                             ruido en el aula en tiempo real. Cuando detecta un volumen alto y constante, activa una
                             alarma sonora y visual mediante un semáforo de LEDs y un buzzer, alertando a los presentes
@@ -165,14 +151,14 @@
                 </div>
                 <div class="row gx-5 align-items-center" style="padding: 5%;">
                     <div class="col-lg-6">
-                        <h2 class="fw-bolder">Alt + Ruido</h2>
+                        <h2 class="display-4 fw-bolder text-celeste titulo text-center">Alt + Ruido</h2>
                         <p class="lead fw-normal mb-0">Alt + Ruido es la app que recibe los datos medidos por
                             el robot y permite visualizarlos en gráficos organizados por escuela, turno, aula y hora.
                             Esta herramienta está pensada para docentes y directivos, ya que permite detectar patrones,
                             franjas horarias problemáticas, picos de ruido y tomar decisiones concretas para mejorar el
                             clima de aprendizaje en las aulas.</p>
                     </div>
-                    <div class="col-lg-6 textpie">
+                    <div class="col-lg-6 textpie text-center">
                         <h3>Aplicación</h3>
                         <div id="carouselApp" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-inner">
@@ -227,10 +213,11 @@
     <!-- Footer-->
     <footer class="py-4 mt-auto bg-secondary">
         <div class="container px-5">
-            <div class="row align-items-center justify-content-between flex-column flex-sm-row">
-                <div class="col-lg-5"> <img class="logofooter" src="assets/logoBlanco.png" alt=""></div>
-                <div class="col-lg-5"> <img class="logofooter" src="assets/escudoet26.png" alt=""></div>
-                <div class="col-lg-2">
+            <div class="row align-items-center justify-content-center justify-content-sm-between  flex-sm-row gy-4">
+                <div class="col-md-5 col-6 d-flex justify-content-center justify-content-md-start"> <img class="logofooter" src="assets/logoBlanco.png" alt=""></div>
+                <div class="col-md-5 col-6 d-flex justify-content-center justify-content-md-start"> <img class="logofooter" src="assets/escudoet26.png" alt=""></div>
+                <div class="col-md-2 col-12 d-flex justify-content-center justify-content-md-start">
+                    <div>
                     <a class="link text-white linkdefault" href="about.html">Quiénes Somos</a> <br>
                     <a class="link text-white linkdefault" href="problematica.html">Problemática</a> <br>
                     <a class="link text-white  linkdefault" href="solucion.html">Solución</a> <br>
@@ -238,6 +225,7 @@
                         data-toggle="tooltip"><i class="bi text-white bi-youtube fs-1 me-3"></i></a> <a class="text-black"
                         href="https://www.instagram.com/alt.suiza/" target="_blank" rel="noopener"
                         data-toggle="tooltip"><i class="bi text-white bi-instagram fs-1"></i></a>
+                    </div>
                 </div>
             </div>
         </div>

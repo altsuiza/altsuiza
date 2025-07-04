@@ -3,7 +3,13 @@
 .titulo{
     font-family: "Jersey 25", sans-serif;
 }
-
+.nav{
+    min-height: 68px;
+}
+.ancho{
+    width: 100px;
+    height: 60px;
+}
 body{
     font-family: "IBM Plex Mono", monospace;
 }
@@ -23,10 +29,15 @@ body{
     width: 100px;
 }
 .logo img{
-    width: 10%;
+    height: 60px;
 }
 .logofooter{
-    width: 35%;
+    width: 60%;
+}
+@media (min-width: 576px) {
+    .logofooter {
+        width: 35%;
+    }
 }
 .fondonav{
     background-color: #D9D9D9;
