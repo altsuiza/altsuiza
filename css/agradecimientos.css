@@ -4,7 +4,7 @@
     --color-texto-oscuro: #333;
 }
 .agradecimientos-header {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/tu-foto-de-fondo.jpg') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/agradecimientos/todos.jpg') no-repeat center center;
     background-size: cover;
     height: 50vh;
     display: flex;
