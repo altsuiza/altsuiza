@@ -1,0 +1,135 @@
+/* Estilos específicos para la página de Finales */
+
+:root {
+    --color-principal: rgb(80, 180, 180);
+    --color-fondo-claro: #f5f5f5;
+    --color-texto-oscuro: #333;
+}
+
+.final-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/final/central.jpg') no-repeat center center;
+    background-size: cover;
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-finales {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.seccion-finales {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.img-finales {
+    border-radius: 12px;
+    border: 3px solid var(--color-principal);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-finales:hover {
+    transform: scale(1.02);
+}
+
+.subtitulo {
+    color: var(--color-principal);
+    font-family: "Jersey 25", sans-serif;
+    font-size: 3rem;
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+}
+
+.seccion-podio {
+    background-color: var(--color-principal);
+    color: #fff;
+    padding: 60px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.titulo-podio {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.parrafo-podio {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.galeria-grid-finales {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 15px;
+    margin-top: 30px;
+}
+
+.galeria-grid-finales img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #D9D9D9;
+    transition: transform 0.3s ease;
+}
+
+.galeria-grid-finales img:hover {
+    transform: scale(1.05);
+}
+
+.video-container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Ratio de aspecto 16:9 */
+    margin-top: 20px;
+    margin-bottom: 40px;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 0;
+}
+.seccion-podio {
+    background-color: var(--color-principal);
+    color: #000000; /* Color de texto negro para que sea visible */
+    padding: 60px 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.img-seccion-full {
+    width: 100%;
+    height: auto;
+    max-height: 400px; /* O el valor que prefieras */
+    object-fit: cover;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+.titulo-lg {
+    font-size: 2.8rem; /* O un valor que te guste */
+    font-weight: bold;
+}
+
+.img-competencia{
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}

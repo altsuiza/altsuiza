@@ -1,0 +1,87 @@
+:root {
+    --color-principal: rgb(80, 180, 180);
+    --color-fondo-claro: #f5f5f5;
+    --color-texto-oscuro: #333;
+}
+.agradecimientos-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../assets/tu-foto-de-fondo.jpg') no-repeat center center;
+    background-size: cover;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.titulo-agradecimientos {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.subtitulo-agradecimientos {
+    color: var(--color-principal);
+    font-family: "Jersey 25", sans-serif;
+    font-size: 2.5rem;
+    border-bottom: 2px solid var(--color-principal);
+    padding-bottom: 5px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.linea{
+    border-bottom: 2px solid var(--color-principal);
+}
+
+.seccion-agradecimientos {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.galeria-agradecimientos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 15px;
+}
+
+.galeria-agradecimientos img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 12px;
+    border: 2px solid #D9D9D9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.seccion-cita {
+    background-color: var(--color-principal);
+    color: #000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.cita {
+    font-family: "Jersey 25", sans-serif;
+    font-size: 2.5rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+}
+.cita-silvi{
+    font-style: italic;
+}
+
+.video-responsive {
+  position: relative;
+  padding-bottom: 56.25%; /* Proporción 16:9 (9/16 = 0.5625) */
+  height: 0;
+  overflow: hidden;
+  max-width: 100%;
+}
+
+.video-responsive iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
